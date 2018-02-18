@@ -1,0 +1,13 @@
+[package]
+name = "enum-str-derive"
+version = "0.1.0"
+authors = ["Victor Porof <victor.porof@gmail.com>"]
+
+[lib]
+name = "enum_str_derive"
+proc-macro = true
+
+[dependencies]
+heck = "0.3.0"
+quote = "0.3.15"
+syn = "0.11.11"
